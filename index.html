@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Birth days with Akan names</title>
+   <script src="js/script.js"></script>
+   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+   <link rel="stylesheet" type="text/css" href="css/styles.css">
+ </head>
+ <body>
+   <main>
+     <form>
+       <img src="images/candles.png"alt="cake" height="120" width="770">
+       <div class="des">
+         <p>Most people do know when their birthdays are, but some might not know what day of the week they were born. 
+           Are you one of those? If you are then ...😂😂😂 Sorry, I had to let that off. Well this website will calculate your day of birth from the input birthdate.
+          It's not just that. It will then proceed to tell your Akan name depending on the day you were born and gender. Cool huh? Go ahead and try it!</p>
+       </div>
+       <div class="input">
+         <div class="first">
+           <p>Enter your birth date in numbers: <input type="number" id="day"></p>
+           <p>Enter your birth month in numbers: <input type="number" id="month"></p>
+         </div>
+         <p>Below is the century digits. For example 1989 has Century = 19. </p>
+         <p>Enter your birth century in numbers. <input type="number" id="century"></p>
+         <p>Then comes the year digits. For example 1989 has Year = 89. </p>
+         <p>Enter your birth year in numbers. <input type="number" id="year"></p>
+       </div>
+       <p class="gen">Gender</p>
+       <div class="gender">
+        <p><input type="radio" name="gender" id="male" value="Male">Male</p>
+        <p><input type="radio" name="gender" id="female" value="Female">Female</p>
+       </div>
+       <div class="submit">
+         <button type="button" id="submit" name="submit" value="Submit" onclick="birthday()">Click here!!!</button>
+       </div>
+       <div class="output">
+        <p>Your birthday is <span id="output-day">... </span> month <span id="output-month">... </span> century <span id="output-century">... </span> year <span id="output-year">... </span></p>
+       </div>
+     </form>
+     <div class="name">
+      <p>Your Akan name is <span id="Akan"></span></p>
+     </div>
+   </main>
+ </body>
+</html>
