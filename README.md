@@ -37,5 +37,5 @@ HTML, CSS and Javascript
    +250780624491
 ### License
 *Tona Daphin*
-Copyright (c) 2019
+Copyright (c) 2019.
   
