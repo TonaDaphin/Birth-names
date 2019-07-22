@@ -1,5 +1,13 @@
 var male=["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
 var female=["Akosua"," Adwoa","Abenaa"," Akua","Yaa"," Afua"," Ama"];
+function res(){
+ document.getElementById("day").value += " ";
+ document.getElementById("month").value += " ";
+ document.getElementById("century").value += " ";
+ document.getElementById("year").value += " ";
+ document.getElementById("male").checked = false;
+ document.getElementById("female").checked = false;
+}
 function birthday() {
  var day = parseInt(document.getElementById("day").value);
  var month= parseInt(document.getElementById("month").value);
